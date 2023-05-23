@@ -59,6 +59,7 @@ void LoginScreen()
     {
         std::cout << (TextLine == User.E_String ? "\x1B[33mThis user exist\033[0m" : "\x1B[31mThe password is incorrect\033[0m.") << std::endl;
     }
+    myfile.close();
 }
 void RegisterScreen()
 {
